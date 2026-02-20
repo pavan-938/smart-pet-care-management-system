@@ -1,0 +1,50 @@
+.home-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('../assets/home-bg.jpg');
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    /* Ensure it takes up significant space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* Make text readable on dark background */
+}
+
+.home-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Enhance text readability */
+}
+
+.home-container p {
+    font-size: 1.5rem;
+    color: #f0f0f0;
+    max-width: 600px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.cta-button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+}
